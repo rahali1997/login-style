@@ -1,0 +1,44 @@
+body {
+    background-color: #f5f5f5;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.login {
+    width: 320px;
+    height: 350px;
+    background-color: #fff;
+    border-radius: 4px;
+    margin:100px auto;
+    box-sizing: border-box;
+    padding: 60px;
+}
+
+input {
+    display: block;
+    width: 200px;
+    height: 33px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    
+}
+
+input:focus {
+    outline-color: turquoise;
+    transition: .25s;
+}
+
+button {
+    width: 200px;
+    height: 33px;
+    border: none;
+    color: #fff;
+    background-color: turquoise;
+}
+
+input,button {
+    margin-top: 25px;
+}
+
+::placeholder{
+    text-align: center;
+}
